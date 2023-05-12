@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+        <h2>Registro</h2>
+        <form id="signupForm">
+            <div class="inputbox">
+                <ion-icon name="full-name-outline"></ion-icon>
+            <label>Nombre</label>
+            <input type="text" placeholder="..." id="name" required autofocus>
+            </div>
+            
+            <div class="inputbox">
+                <ion-icon name="mail-outline"></ion-icon>
+            <label>Mail</label>
+            <input type="email" placeholder="..." id="email" required>
+                </div>
+            
+                <div class="inputbox">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <label>Contraseña</label>
+            <input type="password" placeholder="..." id="password" required >
+                </div>
+
+            <input type="submit" value="Registro" class="button">
+            <div class="Register">
+            <p>do you already have an account?<a href="login.html">Login</a></p>
+            </div>
+            </div>
+        </div>
+        </form>
+       
+    </section>
+    <script src="/javascript/register.js"></script>
+</body>
+</html>
