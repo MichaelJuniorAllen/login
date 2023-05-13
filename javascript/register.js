@@ -13,7 +13,11 @@ signupForm.addEventListener('submit', (e)=>{
 
     Users.push({name: name, email: email, password: password})
     localStorage.setItem('users', JSON.stringify(Users))
-    alert('Registro Exitoso!')
+    Swal.fire(
+        'Good job!',
+        'You clicked the button!',
+        'success'
+      )
     window.location.href = 'login.html'
 
 })
